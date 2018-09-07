@@ -3,7 +3,7 @@ button {
 }
 
 body {
-    background-color: #fff;
+    background-color: #EE4540;
 }
 
 .card-row {
@@ -32,4 +32,24 @@ p.instructions {
 	-webkit-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
 	-moz-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
 	box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
+}
+
+.btn-primary {
+	background-color: #2D142C;
+	border-color: #2D142C;
+}
+
+.btn-primary:hover {
+	background-color: #801336;
+	border-color: #801336;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+	background-color: #801336;
+	border-color: #801336;
+}
+
+.btn-primary:focus {
+	background-color: #801336;
+	border-color: #801336;
 }
