@@ -19,9 +19,17 @@ var taskArray = [
 ];
 var randomTask= taskArray[Math.floor(Math.random() * taskArray.length)];
 
-
 var shuffle = document.getElementById('shuffle-button');
 shuffle.onclick = function() {
+
+  //HERE IS THE NEW JAVASCRIPT
+
+  randomScenario = scenarioArray[Math.floor(Math.random() * scenarioArray.length)];
+  randomControl = controlArray[Math.floor(Math.random() * controlArray.length)];
+  randomTask= taskArray[Math.floor(Math.random() * taskArray.length)];
+
+  //END OF NEW JAVASCRIPT
+
     document.getElementById('scenarioScript').innerHTML = randomScenario;
     document.getElementById('controlScript').innerHTML = randomControl;
     document.getElementById('taskScript').innerHTML = randomTask;
