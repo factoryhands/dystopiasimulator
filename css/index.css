@@ -18,3 +18,8 @@ h1 {
     color: white;
     margin-top: 8rem;
 }
+
+p.instructions {
+    color: white;
+    margin-top: 4rem;
+}
