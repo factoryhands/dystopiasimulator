@@ -3,7 +3,7 @@ button {
 }
 
 body {
-    background-color: #333333;
+    background-color: #fff;
 }
 
 .card-row {
@@ -15,11 +15,21 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     margin-top: 8rem;
+    font-family: "silkscreen";
 }
 
 p.instructions {
     color: white;
     margin-top: 4rem;
+}
+
+.card {
+	height: 27rem;
+	border-color: transparent;
+	border-radius: 0;
+	-webkit-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
+	-moz-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
+	box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
 }
