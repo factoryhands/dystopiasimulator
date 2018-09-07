@@ -4,6 +4,12 @@ button {
 
 body {
     background-color: #EE4540;
+/*    background: url("../img/dystopia.jpeg") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	box-shadow: inset 0 0 0 1000px rgba(45,20,44,.5);*/
 }
 
 .card-row {
