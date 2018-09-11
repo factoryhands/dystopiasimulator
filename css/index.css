@@ -3,17 +3,22 @@ button {
 }
 
 body {
-    background-color: #EE4540;
-/*    background: url("../img/dystopia.jpeg") no-repeat center center fixed;
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(45,23,44, 0.45) 0%, 
+      rgba(128,23,56, 0.45) 100%
+    ),
+    /* bottom, image */
+    url("../img/moshed1.gif") no-repeat center center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	box-shadow: inset 0 0 0 1000px rgba(45,20,44,.5);*/
 }
 
 .card-row {
-    margin-top: 4rem;
+    margin-top: 7rem;
 }
 
 .btn-primary {
@@ -21,9 +26,10 @@ body {
 }
 
 h1 {
-    color: black;
-    margin-top: 8rem;
+    color: #ffffff;
+    margin-top: 4rem;
     font-family: "silkscreen";
+    font-size: 4rem;
 }
 
 p.instructions {
@@ -32,7 +38,7 @@ p.instructions {
 }
 
 .card {
-	height: 27rem;
+	height: 22rem;
 	border-color: transparent;
 	border-radius: 0;
 	-webkit-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
@@ -40,9 +46,22 @@ p.instructions {
 	box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
 }
 
+.card:before {
+	content: "";
+	border-bottom: 60px solid white;
+    border-left: 0px solid white;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: inherit;
+    position: relative;
+    top: -30px;
+    left: -1px;
+}
+
 .btn-primary {
 	background-color: #2D142C;
 	border-color: #2D142C;
+	border-radius: 0px;
 }
 
 .btn-primary:hover {
@@ -58,4 +77,12 @@ p.instructions {
 .btn-primary:focus {
 	background-color: #801336;
 	border-color: #801336;
+}
+
+p.card-text {
+	padding-top: 1rem;
+}
+
+#shuffle-button {
+	margin-top: 6rem;
 }
