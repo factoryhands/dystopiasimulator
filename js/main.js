@@ -28,22 +28,22 @@ var controlArray = [
 var randomControl = controlArray[Math.floor(Math.random() * controlArray.length)];
 
 var taskArray = [
-    'Build a library system that spreads and scales globally.',
-    'Build a secret messaging service that can scale globally.',
-    'Build a method of transportation that is silent and secret.',
-    'Feed your populace. How do you produce and distribute food in your new world?',
-    'Build a house that provides you and your clan comfort, safety, and other tools of survival.',
-    'Build a social network',
-    'Build a system that cares for the elderly in your society.',
-    'Build a hospital system.',
-    'Build an irrigation system.',
-    'Build a dating service',
-    'Build a fitness tool that tracks your activity',
-    'Build an education system',
-    'Build a meditation tool to keep your heart rate down.',
-    'Build a tool that manages and tracks your nutrition.',
-    'Build a tool that teaches children how to read and improves societal literacy.',
-    'Build a navigation tool for your new society.'
+    'a library system that spreads and scales globally.',
+    'a secret messaging service that can scale globally.',
+    'a method of transportation that is silent and secret.',
+    'a way to feed your populace. How do you produce and distribute food in your new world?',
+    'a house that provides you and your clan comfort, safety, and other tools of survival.',
+    'a social network that aids in distributing resources.',
+    'a system that cares for the elderly in your society.',
+    'a hospital system that accurately and secretly tracks patient data.',
+    'an irrigation system that distributes water evenly to your society.',
+    'a dating service that helps you find your true mate amidst the chaos.',
+    'a fitness tool that secretly tracks your activity and makes sure you get enough sleep despite the chaos.',
+    'a secret education system for your society.',
+    'a meditation tool to keep your heart rate down.',
+    'a tool that manages and tracks your nutrition and helps you find food in your broken world.',
+    'a tool that teaches children how to read and improves societal literacy.',
+    'a navigation tool for your world.'
 ];
 var randomTask= taskArray[Math.floor(Math.random() * taskArray.length)];
 
