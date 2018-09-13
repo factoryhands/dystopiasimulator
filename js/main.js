@@ -1,3 +1,13 @@
+function randombg(){
+  var random= Math.floor(Math.random() * 6) + 0;
+  var bigSize = ["url('img/moshed1.gif')",
+                 "url('img/moshed2.gif')",
+                 "url('img/moshed3.gif')",
+                 "url('img/moshed4.gif')",
+                 "url('img/moshed5.gif')"];
+  document.getElementById("body").style.backgroundImage=bigSize[random];
+}
+
 var scenarioArray = [
     'there are floods. The land is gone.',
     'locusts. They eat the world\'s food and foliage.',
@@ -61,4 +71,10 @@ shuffle.onclick = function() {
     document.getElementById('scenarioScript').innerHTML = randomScenario;
     document.getElementById('controlScript').innerHTML = randomControl;
     document.getElementById('taskScript').innerHTML = randomTask;
+
+    randombg()
 }
+
+
+
+

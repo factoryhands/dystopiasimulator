@@ -11,7 +11,9 @@
 
 
 </head>
-<body>
+<body onload="randombg()" id="body">
+
+    <div class="background-gradient">
 
     <div class="container">
 
@@ -24,6 +26,7 @@
         <div class="row card-row">
             <div class="col">
                 <div class="card">
+                    <img class="card-img-top" src="img/svg/world.svg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">In your world</h5>
                         <p class="card-text" id="scenarioScript">Click 'Shuffle' button to generate.</p>
@@ -33,6 +36,7 @@
         
             <div class="col">
                 <div class="card">
+                    <img class="card-img-top" src="img/svg/control.svg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">You are controlled by</h5>
                         <p class="card-text" id="controlScript">Click 'Shuffle' button to generate.</p>
@@ -42,6 +46,7 @@
 
             <div class="col">
                 <div class="card">
+                    <img class="card-img-top" src="img/svg/build.svg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">You must build</h5>
                         <p class="card-text" id="taskScript">Click 'Shuffle' button to generate.</p>
@@ -51,12 +56,15 @@
         </div>
 
         <div class="row justify-content-md-center">
-                <button class="btn-lg btn btn-primary" id="shuffle-button">Shuffle the Dystopia</button>
+            <button onclick="randombg()" class="btn-lg btn btn-primary" id="shuffle-button">Shuffle the Dystopia</button>
         </div>
+
+    </div>
 
     </div>
 
 </body>
 
 <script src="js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </html>

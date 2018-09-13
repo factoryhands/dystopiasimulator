@@ -1,24 +1,44 @@
 button {
-    margin-top: 3rem;
+  margin-top: 3rem;
+}
+
+html {
+    height: 100%;
 }
 
 body {
-    background: 
+  background: 
     /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(45,23,44, 0.45) 0%, 
-      rgba(128,23,56, 0.45) 100%
-    ),
-    /* bottom, image */
-    url("../img/moshed1.gif") no-repeat center center fixed;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+/*  linear-gradient(
+    rgba(45,23,44, 0.85) 0%, 
+    rgba(128,23,56, 0.85) 100%
+  ),*/
+  /* bottom, image */
+  url("../img/moshed4.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.background-gradient {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+  linear-gradient(
+    rgba(45,23,44, 0.85) 0%, 
+    rgba(128,23,56, 0.85) 100%
+  ),
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
 }
 
 .card-row {
-    margin-top: 7rem;
+  margin-top: 7rem;
 }
 
 .btn-primary {
@@ -26,15 +46,15 @@ body {
 }
 
 h1 {
-    color: #ffffff;
-    margin-top: 4rem;
-    font-family: "silkscreen";
-    font-size: 4rem;
+  color: #ffffff;
+  margin-top: 4rem;
+  font-family: "silkscreen";
+  font-size: 4rem;
 }
 
 p.instructions {
-    color: white;
-    margin-top: 4rem;
+  color: white;
+  margin-top: 4rem;
 }
 
 .card {
@@ -49,13 +69,13 @@ p.instructions {
 .card:before {
 	content: "";
 	border-bottom: 60px solid white;
-    border-left: 0px solid white;
-    border-right: 100px solid transparent;
-    height: 0;
-    width: inherit;
-    position: relative;
-    top: -30px;
-    left: -1px;
+  border-left: 0px solid white;
+  border-right: 100px solid transparent;
+  height: 0;
+  width: inherit;
+  position: relative;
+  top: -30px;
+  left: -1px;
 }
 
 .btn-primary {
@@ -85,4 +105,14 @@ p.card-text {
 
 #shuffle-button {
 	margin-top: 6rem;
+}
+
+.card-img-top {
+  height: 70px;
+  width: 117px;
+  position: absolute;
+}
+
+.card-body {
+  margin-top: 1rem;
 }
