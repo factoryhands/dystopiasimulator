@@ -48,14 +48,16 @@ body {
 h1 {
   color: #ffffff;
   margin-top: 8rem;
-  font-family: "briller";
-  font-size: 3rem;
-  font-weight:  900;
+  font-family: monospace;
+  font-size: 5rem;
+  font-weight:  500;
 }
 
 h2 {
   color: #fff;
-  font-family: "inconsolata";
+  font-family: "inconsolata",monospace;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 p.instructions {
