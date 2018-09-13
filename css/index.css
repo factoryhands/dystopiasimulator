@@ -26,8 +26,8 @@ body {
   background: 
     /* top, transparent red, faked with gradient */ 
   linear-gradient(
-    rgba(45,23,44, 0.85) 0%, 
-    rgba(128,23,56, 0.85) 100%
+    rgba(45,23,44, 0.75) 0%, 
+    rgba(128,23,56, 0.75) 100%
   ),
   no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -47,9 +47,15 @@ body {
 
 h1 {
   color: #ffffff;
-  margin-top: 4rem;
-  font-family: "silkscreen";
-  font-size: 4rem;
+  margin-top: 8rem;
+  font-family: "briller";
+  font-size: 3rem;
+  font-weight:  900;
+}
+
+h2 {
+  color: #fff;
+  font-family: "inconsolata";
 }
 
 p.instructions {
