@@ -60,29 +60,40 @@ h2 {
   font-size: 1rem;
 }
 
+h5 {
+  color: white;
+  font-family: monospace;
+}
+
 p.instructions {
   color: white;
   margin-top: 4rem;
 }
 
+p {
+  color: white;
+}
+
 .card {
-	height: 22rem;
+	height: 17rem;
 	border-color: transparent;
 	border-radius: 0;
 	-webkit-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
 	-moz-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
 	box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
+  margin-top: 4rem;
+  background-color: #2d172c;
 }
 
 .card:before {
-	content: "";
-	border-bottom: 60px solid white;
-  border-left: 0px solid white;
+  content: "";
+  border-bottom: 100px solid #2d172c;
+  border-left: 0px solid #2d172c;
   border-right: 100px solid transparent;
   height: 0;
   width: inherit;
   position: relative;
-  top: -30px;
+  top: -100px;
   left: -1px;
 }
 
@@ -90,6 +101,9 @@ p.instructions {
 	background-color: #2D142C;
 	border-color: #2D142C;
 	border-radius: 0px;
+  -webkit-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
+  -moz-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
+  box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
 }
 
 .btn-primary:hover {
@@ -112,15 +126,17 @@ p.card-text {
 }
 
 #shuffle-button {
-	margin-top: 6rem;
+	margin-top: 2rem;
 }
 
 .card-img-top {
   height: 70px;
   width: 117px;
   position: absolute;
+  top: -80px;
 }
 
-.card-body {
-  margin-top: 1rem;
+.card-content {
+  top: 2rem;
+  position: absolute;
 }
