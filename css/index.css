@@ -2,6 +2,16 @@ button {
   margin-top: 3rem;
 }
 
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #EC4548;
+	text-decoration: underline;
+}
+
 html {
     height: 100%;
 }
@@ -238,4 +248,8 @@ p.card-text {
 
 .task h5 {
 	color: #2d172c;
+}
+
+p.ixda-link {
+	margin-top: 2rem;
 }
