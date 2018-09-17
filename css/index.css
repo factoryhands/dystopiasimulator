@@ -60,9 +60,15 @@ h2 {
   font-size: 1rem;
 }
 
+h2.tagline {
+  margin-bottom: 2rem;
+}
+
 h5 {
   color: white;
   font-family: monospace;
+  font-size: 1.7rem;
+  font-weight: 700;
 }
 
 p.instructions {
@@ -72,6 +78,8 @@ p.instructions {
 
 p {
   color: white;
+  font-family: monospace;
+  font-size: 1.3rem;
 }
 
 .card {
@@ -104,6 +112,7 @@ p {
   -webkit-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
   -moz-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
   box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
+  font-family: monospace;
 }
 
 .btn-primary:hover {
