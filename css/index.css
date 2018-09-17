@@ -67,8 +67,8 @@ h2.tagline {
 h5 {
   color: white;
   font-family: monospace;
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
 }
 
 p.instructions {
@@ -80,6 +80,10 @@ p {
   color: white;
   font-family: monospace;
   font-size: 1.3rem;
+}
+
+p.card-text {
+	padding-right: 1em;
 }
 
 .card {

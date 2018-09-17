@@ -1,19 +1,9 @@
-function randombg(){
-  var random= Math.floor(Math.random() * 6) + 0;
-  var bigSize = ["url('img/moshed1.gif')",
-                 "url('img/moshed2.gif')",
-                 "url('img/moshed3.gif')",
-                 "url('img/moshed4.gif')",
-                 "url('img/moshed5.gif')"];
-  document.getElementById("body").style.backgroundImage=bigSize[random];
-}
-
 var scenarioArray = [
     'barren and riddled with famine. Locusts and an onslought of other invasive bugs eat the majority of the world\'s food and foliage.',
     'in the past. Dinosaurs have come back. They rule the land, sky, sea and air. Being outside is incredibly dangerous as humans are now no longer at the top of the food chain.',
-    'there is no more public water resources. Only the rich are able to afford water.',
+    'dry and unequal. there is no more public water resources. Only the rich are able to afford water.',
     'each consecutive week time rewinds 100 years and humanity is thrust backward into the past.',
-    'rainy and cloudy. There is no sun.',
+    'rainy and dark. There is no sun.',
     'an arid desert without water.',
     'a flooded planet with no land.',
     'a nuclear winter that is cold and frozen.',
@@ -26,7 +16,7 @@ var scenarioArray = [
     'has no night. The sun bakes the earth and water is scarce.',
     'is underground. Nuclear war has driven your society to seek safety under the earth.',
     'lonely. People are scarce as humanity has been wiped out by disease.',
-    'violent. There is war. no children have been born in over 20 years.',
+    'violent. There is war. No children have been born in over 20 years.',
 ];
 
 var controlArray = [
@@ -40,7 +30,7 @@ var controlArray = [
     'what appears to be the wipeout of mankind.',
     'consistent weather disasters. Your region specifically is plauged by constant tornadoes that are unpredictable.',
     'the abolishment of stores, factories, and any item deemed to be superficial by the ruling class.',
-    'your government. Emotion and artistic expression is illegal.',
+    'your government. Emotion and artistic expression are illegal.',
     'your ruling class. Memory is illegal and your brain is wiped daily by the government.',
     'your government. You are sorted into factions based on the resources in your location. Transportation is illegal and you are a prison of your faction.',
     // 'clones. Your clone who mainly uses you as a hard laborer to do their bidding.',
@@ -62,11 +52,23 @@ var taskArray = [
     'a preparedness toolkit.',
     'a method of purchasing non-essential supplies that have been outlawed.',
     'a way to create, view, and share art secretly.',
-    'a way to record your thoughts.',
-    'a way to secret way to communicate between factions.',
+    'a way to record and share your thoughts to help you and your society remember you lives.',
+    'a way to secret way to trade goods between factions.',
     'a secret way to communicate.',
 ];
 
+function randombg(){
+  var random= Math.floor(Math.random() * 6) + 0;
+  var bigSize = ["url('img/moshed1.gif')",
+                 "url('img/moshed2.gif')",
+                 "url('img/moshed3.gif')",
+                 "url('img/moshed4.gif')",
+                 "url('img/moshed5.gif')"];
+  document.getElementById("body").style.backgroundImage=bigSize[random];
+}
+
+
+00
 var shuffle = document.getElementById('shuffle-button');
 shuffle.onclick = function() {
 
