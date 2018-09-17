@@ -87,14 +87,14 @@ p.card-text {
 }
 
 .card {
-	height: 17rem;
+	height: 19rem;
 	border-color: transparent;
 	border-radius: 0;
 	-webkit-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
 	-moz-box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
 	box-shadow: 10px 10px 46px -8px rgba(0,0,0,0.28);
-  margin-top: 4rem;
-  background-color: #2d172c;
+  	margin-top: 4rem;
+  	background-color: #2d172c;
 }
 
 .card:before {
@@ -152,4 +152,90 @@ p.card-text {
 .card-content {
   top: 2rem;
   position: absolute;
+}
+
+.triangle-top {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 0rem;
+    top: -100px;
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid white;
+}
+
+.triangle-bottom {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -1px;
+    top: 0px;
+    border-left: 100px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 0px solid white;
+    border-top: 100px solid white;
+}
+
+/*WORLD STYLING*/
+
+.world .triangle-top {
+	border-bottom-color: white;
+}
+.world .triangle-bottom {
+	border-top-color: #801739;
+	border-bottom-color: #801739;
+}
+
+/*CONTROL STYLING*/
+
+.card.control {
+	background-color: #EC4548;
+}
+
+.card.control:before{
+	border-bottom-color: #EC4548;
+	border-left-color: #EC4548;
+}
+
+.control .triangle-top {
+	border-bottom-color: white;
+}
+.control .triangle-bottom {
+	border-top-color: #501034;
+	border-bottom-color: #501034;
+}
+
+.control p {
+	color: white;
+}
+
+.control h5 {
+	color: white;
+}
+
+/*TASK STYLING*/
+.card.task {
+	background-color: white;
+}
+
+.card.task:before{
+	border-bottom-color: white;
+	border-left-color: white;
+}
+
+.task .triangle-top {
+	border-bottom-color: #EC4548;
+}
+.task .triangle-bottom {
+	border-top-color: #501034;
+	border-bottom-color: #501034;
+}
+
+.task p {
+	color: #2d172c;
+}
+
+.task h5 {
+	color: #2d172c;
 }

@@ -68,7 +68,6 @@ function randombg(){
 }
 
 
-00
 var shuffle = document.getElementById('shuffle-button');
 shuffle.onclick = function() {
 
