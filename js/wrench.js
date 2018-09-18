@@ -1,0 +1,32 @@
+  var wrenchArray = [
+    'The sun died and electricity has run out.',
+    'You find a dog alone wandering and hungry. He is super friendly and you decide to make him a part of your group. Now you have to keep this dog alive!',
+    'You get caught! The government finds out what you\'re doing and you\'re in prison now.',
+    'Communication cannot be relied upon, in paritciularly cellular, sattelite and other forms of wireless communication.',
+    'The sun has died and light cannot be relied upon. All objects must be fully functional in the dark.',
+  ];
+
+// function randomWrench(){
+//   var random= Math.floor(Math.random() * 5) + 0;
+
+//   document.getElementById('wrenchScript').innerHTML = wrenchArray[random];
+
+//   console.log(wrenchArray[random]);
+// }
+
+function randombg(){
+  var random= Math.floor(Math.random() * 5) + 0;
+  var bigSize = ["url('img/moshed1.gif')",
+                 "url('img/moshed2.gif')",
+                 "url('img/moshed3.gif')",
+                 "url('img/moshed4.gif')",
+                 "url('img/moshed5.gif')"];
+  document.getElementById("body").style.backgroundImage = bigSize[random];
+}
+
+
+randomWrench = wrenchArray[Math.floor(Math.random() * wrenchArray.length)];
+console.log(randomWrench)
+
+
+document.getElementById('wrenchScript').innerHTML = randomWrench;

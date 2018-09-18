@@ -57,8 +57,16 @@ var taskArray = [
     'a secret way to communicate.',
 ];
 
+var wrenchArray = [
+    'The sun died and electricity has run out.',
+    'You find a dog alone wandering and hungry. He is super friendly and you decide to make him a part of your group. Now you have to keep this dog alive!',
+    'You get caught! The government finds out what you\'re doing and you\'re in prison now.',
+    'Communication cannot be relied upon, in paritciularly cellular, sattelite and other forms of wireless communication.',
+    'The sun has died and light cannot be relied upon. All objects must be fully functional in the dark.',
+];
+
 function randombg(){
-  var random= Math.floor(Math.random() * 6) + 0;
+  var random= Math.floor(Math.random() * 5) + 0;
   var bigSize = ["url('img/moshed1.gif')",
                  "url('img/moshed2.gif')",
                  "url('img/moshed3.gif')",
@@ -73,8 +81,6 @@ shuffle.onclick = function() {
 
 
   randomScenario = scenarioArray[Math.floor(Math.random() * scenarioArray.length)];
-  // randomControl = controlArray[Math.floor(Math.random() * controlArray.length)];
-  // randomTask= taskArray[Math.floor(Math.random() * taskArray.length)];
   var randomArrayNumber = Math.floor(Math.random() * controlArray.length);
   console.log(randomArrayNumber)
 
