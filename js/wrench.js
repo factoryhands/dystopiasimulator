@@ -1,7 +1,7 @@
   var wrenchArray = [
     'The sun died and electricity has run out.',
     'You find a dog alone wandering and hungry. He is super friendly and you decide to make him a part of your group. Now you have to keep this dog alive!',
-    'You get caught! The government finds out what you\'re doing and you\'re in prison now.',
+    'You get caught! The government finds out what you\'re doing and half of your team is imprisoned.',
     'Communication cannot be relied upon, in paritciularly cellular, sattelite and other forms of wireless communication.',
     'The sun has died and light cannot be relied upon. All objects must be fully functional in the dark.',
   ];
