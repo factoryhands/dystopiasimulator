@@ -20,7 +20,7 @@ var scenarioArray = [
 ];
 
 var controlArray = [
-    'insects that infect you with a virius that takes away your memory.',
+    'insects that infect you with a virus that takes away your memory.',
     'microtransactions for every part of life that you can never get ahead of. To keep up you have to always work with no time off.',
     'a ruling class that has banned all books and made reading illegal.',
     'by a religious cult. Human relationships are illegal and all reproduction happens in the lab.',
