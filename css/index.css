@@ -130,18 +130,18 @@ p.card-text {
 }
 
 .btn-primary:hover {
-	background-color: #801336;
-	border-color: #801336;
+	background-color: #EC4548;
+	border-color: #EC4548;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-	background-color: #801336;
-	border-color: #801336;
+	background-color: #EC4548;
+	border-color: #EC4548;
 }
 
 .btn-primary:focus {
-	background-color: #801336;
-	border-color: #801336;
+	background-color: #EC4548;
+	border-color: #EC4548;
 }
 
 p.card-text {
@@ -165,26 +165,26 @@ p.card-text {
 }
 
 .triangle-top {
-    width: 0;
-    height: 0;
-    position: absolute;
-    right: 0rem;
-    top: -100px;
-    border-left: 0px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 100px solid white;
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 0rem;
+  top: -100px;
+  border-left: 0px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid white;
 }
 
 .triangle-bottom {
-    width: 0;
-    height: 0;
-    position: absolute;
-    right: -1px;
-    top: 0px;
-    border-left: 100px solid transparent;
-    border-right: 0px solid transparent;
-    border-bottom: 0px solid white;
-    border-top: 100px solid white;
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -1px;
+  top: 0px;
+  border-left: 100px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid white;
+  border-top: 100px solid white;
 }
 
 /*WORLD STYLING*/
