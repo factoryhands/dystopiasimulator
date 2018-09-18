@@ -17,6 +17,8 @@ var scenarioArray = [
     'underground. Nuclear war has driven your society to seek safety under the earth.',
     'lonely. People are scarce as humanity has been wiped out by disease.',
     'violent. There is war. No children have been born in over 20 years.',
+    'suddenly larger. All humans and animals have shrunk to 10% of their previous size.',
+    'red. All other colors have vanished',
 ];
 
 var controlArray = [
@@ -33,9 +35,10 @@ var controlArray = [
     'your government. Emotion and artistic expression are illegal.',
     'your ruling class. Memory is illegal and your brain is wiped daily by the government.',
     'your government. You are sorted into factions based on the resources in your location. Transportation is illegal and you are a prisoner of your faction.',
-    // 'clones. Your clone who mainly uses you as a hard laborer to do their bidding.',
+    'artificial intelligence has become sentient and now algorithmically controls your schedule because it thinks it knows what/’s best for you.',
+    'people come back from the dead, and all they want to do is party.',
+    'clones. Every person suddenly has several clones, each claiming to be the original.',
     // 'vampires that have enslaved humanity and forced everyone into mandatory blood drives.',
-    // 'people come back from the dead, and resources are scarce.',
     // 'artificial intelligence has become sentient and now algorythmically controls life and hummanity.',
     // 'the state that has banned and made illegal all forms of communication.',
 ];
@@ -54,7 +57,9 @@ var taskArray = [
     'a way to create, view, and share art secretly.',
     'a way to record and share your thoughts to help you and your society remember you lives.',
     'a way to secret way to trade goods between factions.',
-    'a secret way to communicate.',
+    'a way to trick the AI into scheduling what you want.',
+    'a way to keep the undead happy, while keeping the rest of humanity productive.',
+    'a way for people to own and verify their identities.',
 ];
 
 var wrenchArray = [
