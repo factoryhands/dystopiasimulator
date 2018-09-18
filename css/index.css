@@ -96,6 +96,10 @@ p.card-text {
 	padding-right: 1em;
 }
 
+#wrenchScript {
+	padding-right: 2em;
+}
+
 .card {
 	height: 19rem;
 	border-color: transparent;

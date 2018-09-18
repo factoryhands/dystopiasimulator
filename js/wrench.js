@@ -6,13 +6,6 @@
     'The sun has died and light cannot be relied upon. All objects must be fully functional in the dark.',
   ];
 
-// function randomWrench(){
-//   var random= Math.floor(Math.random() * 5) + 0;
-
-//   document.getElementById('wrenchScript').innerHTML = wrenchArray[random];
-
-//   console.log(wrenchArray[random]);
-// }
 
 function randombg(){
   var random= Math.floor(Math.random() * 5) + 0;
