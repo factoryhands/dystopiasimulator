@@ -8,7 +8,7 @@ var scenarioArray = [
     'a flooded planet with no land.',
     'a nuclear winter that is cold and frozen.',
     'a frozen desert without foliage or organic food.',
-    'a dark, cold and barren planet with no sun.',
+    'a dark, cold, and barren planet with no sun.',
     'a hot, cracked desert with scarce water and food.',
     'all one giant mega city that has no habitable land left.',
     'completely underwater, and society lives in a series of underwater tubes.',
