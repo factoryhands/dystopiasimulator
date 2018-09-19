@@ -4,6 +4,8 @@
     'You get caught! The government finds out what you\'re doing and half of your team is imprisoned.',
     'Communication cannot be relied upon, in paritciularly cellular, sattelite and other forms of wireless communication.',
     'The sun has died and light cannot be relied upon. All objects must be fully functional in the dark.',
+    'Your group becomes paranoid and turns against eachother. How do you rebuild trust?',
+    'Your society has lost the ability to speak verbally.',
   ];
 
 
