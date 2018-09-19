@@ -8,7 +8,6 @@
     'Your society has lost the ability to speak more than two words per hour.',
     'Your government is now controlled by cats.',
     'It is illegal to not use the buddy system, and you must now travel in pairs.',
-    '',
   ];
 
 
