@@ -6,6 +6,8 @@
     'The sun has died and light cannot be relied upon. All objects must be fully functional in the dark.',
     'Your group becomes paranoid and turns against eachother. How do you rebuild trust?',
     'Your society has lost the ability to speak more than two words per hour.',
+    'Your government is now controlled by cats.',
+    'It is illegal to not use the buddy system, and you must now travel in pairs.',
     '',
   ];
 
